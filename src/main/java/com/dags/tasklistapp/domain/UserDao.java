@@ -17,11 +17,8 @@ public class UserDao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column
     private String username;
 
-    @Column
     @JsonIgnore
     private String password;
 

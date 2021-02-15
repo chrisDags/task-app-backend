@@ -17,13 +17,8 @@ public class TaskDao {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
     String name;
-
-    @Column
     String description;
-
-    @Column
     Date dateCreated;
 
     @ManyToOne(fetch = FetchType.LAZY)
