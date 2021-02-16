@@ -14,7 +14,7 @@ import java.security.Principal;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = {"http://localhost:3000"})
+@CrossOrigin(origins = {"https://task-manager-dags.herokuapp.com"})
 public class TaskController {
 
     @Autowired
