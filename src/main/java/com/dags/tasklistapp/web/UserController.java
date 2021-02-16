@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 //@CrossOrigin(origins = {"http://localhost:3000"})
-@CrossOrigin(origins = {"https://task-manager-dags.herokuapp.com"})
+@CrossOrigin(origins = {"https://task-manager-dags.herokuapp.com", "http://task-manager-dags.herokuapp.com", "http://localhost:3000"})
 public class UserController {
 
     @Autowired
